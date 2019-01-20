@@ -1,0 +1,31 @@
+body{
+    background: rgb(240, 240, 240); 
+}
+.box{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.space{
+    margin-right:10px;
+}
+
+
+.linear{
+    .space;
+    width:200px;
+    height:200px;
+    background:linear-gradient(to bottom right,#b6719b 0%,#b62f2f 20%,#000000 100%);
+}
+
+.transparent{
+    .space;
+    width:700px;
+    height:500px;
+    background: linear-gradient(-45deg, rgba(255,255,255,0.2), rgba(255,255,255,8)), url(http://img95.699pic.com/photo/50093/8720.jpg_wh860.jpg);
+}
+
+.radial{
+    width:200px;
+    height:200px;
+    background: linear-gradient(135deg,#b6719b 0%,#b62f2f 20%,#000000 100%)
+}
